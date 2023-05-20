@@ -4,6 +4,8 @@
     {
         Action = 1,
         Fighter,
-        Detective
+        Detective,
+        Stealth,
+        Simulator
     }
 }

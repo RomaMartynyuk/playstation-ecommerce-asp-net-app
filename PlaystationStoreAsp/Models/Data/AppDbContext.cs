@@ -8,7 +8,7 @@ namespace PlaystationStoreAsp.Models.Data
         {
             
         }
-        DbSet<Game> Games { get; set; }
-        DbSet<Company> Companies { get; set; }
+        public DbSet<Game> Games { get; set; }
+        public DbSet<Company> Companies { get; set; }
     }
 }

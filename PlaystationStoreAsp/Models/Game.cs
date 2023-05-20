@@ -15,11 +15,10 @@ namespace PlaystationStoreAsp.Models
         public DateTime ReleaseDate { get; set; }
         public int NumberOfPlayers { get; set; }
         public GameGenre Genre { get; set; }
-        public List<GameLanguage> Languages { get; set; }
 
         //Relationship
         public int CompanyId { get; set; }
         [ForeignKey("CompanyId")]
-        public Company Company { get; set; }
+        public Company? Company { get; set; }
     }
 }
